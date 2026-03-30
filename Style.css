@@ -12,13 +12,16 @@ background-attachment: fixed;
 margin: 0;
 color: white;
 }
+
 .cabecalho{
 padding: 2% 0% 0% 15%;
 }
+
 .cabecalho-menu{
 display: flex;
 gap: 80px;
 }
+
 .cabecalho-menu-link{font-family: Arial, Helvetica, sans-serif;
 font-size: 24px;
 font-weight: 600;
@@ -35,6 +38,7 @@ align-items: center;
 justify-content: space-between;
 margin-bottom: 15px;
 }
+
 .apresentacao-conteudo {
 width: 615px;
 flex-direction: column;
@@ -45,26 +49,29 @@ height: auto;
 gap: 40px;
 order: 2;
 }
+
 .apresentacao-conteudo-titulo{
     font-size: 36px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
+
 .apresentacao-conteudo-paragrafo{
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
+
 .botao1{
-    background-color: yellow;
-    color: #ff5500;
+    background-color: white;
+    color: red;
     width: 500px;
     height: 80px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid red;
     border-radius: 50px;
     font-size: 36px;
     padding: 15px 0;
@@ -75,6 +82,7 @@ order: 2;
     position: relative;
     overflow: hidden;
 }
+
 .botao1::before {
 content:"";
 position: absolute;
@@ -85,6 +93,7 @@ height: 100%;
 background: linear-gradient(45deg, transparent, #ff5500);
 transition: 0.5s;
 }
+
 .botao1:hover::before {
 left: 100%;
 
@@ -101,7 +110,7 @@ font-size: 60px;
 /* INICIO BOTAO 2 */
 
 .botao2{
-    background-color: black;
+    background-color: white;
     color: #0077B5;
     width: 500px;
     height: 80px;
@@ -120,6 +129,7 @@ font-size: 60px;
     position: relative;
     overflow: hidden;
 }
+
 .botao2::before {
 content:"";
 position: absolute;
@@ -130,6 +140,7 @@ height: 100%;
 background: linear-gradient(45deg, transparent, #0077B5);
 transition: 0.5s;
 }
+
 .botao2:hover::before {
 left: 100%;
 
@@ -146,8 +157,8 @@ font-size: 60px;
 /* INICIO BOTAO 3 */
 
 .botao3{
-    background-color: #000;
-    color: #333;
+    background-color: white;
+    color: #000;
     width: 500px;
     height: 80px;
     text-align: center;
@@ -165,6 +176,7 @@ font-size: 60px;
     position: relative;
     overflow: hidden;
 }
+
 .botao3::before {
 content:"";
 position: absolute;
@@ -172,9 +184,10 @@ top: 0;
 left: -100%;
 width: 100%;
 height: 100%;
-background: linear-gradient(45deg, transparent, #ff5500);
+background: linear-gradient(45deg, transparent, #333);
 transition: 0.5s;
 }
+
 .botao3:hover::before {
 left: 100%;
 
@@ -192,7 +205,7 @@ font-size: 60px;
 
 .botao4{
     background-color: whitesmoke;
-    color: green;
+    color: rgb(58, 195, 58);
     width: 500px;
     height: 80px;
     text-align: center;
@@ -210,6 +223,7 @@ font-size: 60px;
     position: relative;
     overflow: hidden;
 }
+
 .botao4::before {
 content:"";
 position: absolute;
@@ -220,6 +234,7 @@ height: 100%;
 background: linear-gradient(45deg, transparent, green);
 transition: 0.5s;
 }
+
 .botao4:hover::before {
 left: 100%;
 
@@ -255,6 +270,7 @@ font-size: 60px;
     position: relative;
     overflow: hidden;
 }
+
 .botao5::before {
 content:"";
 position: absolute;
@@ -265,9 +281,9 @@ height: 100%;
 background: linear-gradient(45deg, transparent, #B61CA9);
 transition: 0.5s;
 }
+
 .botao5:hover::before {
 left: 100%;
-
 }
 
 .botao5 i {
